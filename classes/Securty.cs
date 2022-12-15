@@ -1,3 +1,4 @@
+using System;
 namespace CalculatR.classes
 {
     public class Securty
