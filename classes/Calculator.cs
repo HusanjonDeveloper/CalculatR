@@ -49,5 +49,29 @@ namespace CalculatR.classes
                 _ => "Operation Not Found"
             };
         }
+
+        public void PrintEvenNumbers()
+        {
+            Console.WriteLine("Printing even numbers till first input...");
+
+            int counter = 2;
+            while (counter < FristNumber)
+            {
+                Console.WriteLine(counter);
+                counter += 2;
+            }
+        }
+        public void PrintMultipllcationTable()
+        {
+            Console.WriteLine("Print Multipllcation Table...");
+            for (int i = 1; i <= 10; i++)
+            {
+                for (int j = 1; j <= 10; j++)
+                {
+                    Console.WriteLine($"{i} x {j} = {i * j}");
+                }
+            }
+            Console.WriteLine("\n");
+        }
     }
 }
