@@ -49,5 +49,22 @@ class Programm
         };
         System.Console.WriteLine(result);
 
+        int counter = 2;
+        while (counter < fristNumber)
+        {
+            System.Console.WriteLine(counter);
+            counter += 2;
+        }
+        for (int i = 1; i <= 10; i++)
+        {
+            for (int j = 1; j <= 10; j++)
+            {
+                System.Console.WriteLine($"{i} x {j} = {i * j}");
+            }
+        }
+        System.Console.WriteLine("\n");
+
+        Console.ReadKey();
+
     }
 }
