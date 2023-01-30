@@ -1,6 +1,6 @@
 ﻿//  CalculatR int 
-
 using System;
+
 using CalculatR.classes;
 
 class Programm
