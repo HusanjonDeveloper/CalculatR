@@ -25,6 +25,7 @@ class Programm
         calculator.ComperInputs();
 
         string result = calculator.Calculate();
+        
         System.Console.WriteLine(result);
 
         calculator.PrintEvenNumbers();
