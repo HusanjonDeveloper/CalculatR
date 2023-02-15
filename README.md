@@ -1,2 +1,2 @@
 # CalculatR
-# This project was opened when I started studying at Mohirdev
+ This project was opened when I started studying at Mohirdev
