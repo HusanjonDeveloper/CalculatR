@@ -14,8 +14,9 @@ var githubPipline = new GithubPipeline
         },
 
         Push = new PushEvent
-        { Branches = new string[] { "Manin" } }
+        { Branches = new string[] { "Mani" } }
     },
+
     Jobs = new Jobs
     {
         Build = new BuildJob
